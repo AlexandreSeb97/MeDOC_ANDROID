@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"  tools:context=".MapsActivity"
-    android:background="@color/material_blue_100">
+    android:background="#84DCCF">
 
 
 <fragment xmlns:android="http://schemas.android.com/apk/res/android"
@@ -11,14 +11,13 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     tools:layout="@layout/abc_action_bar_title_item" />
 
-    <Button
+    <Button style="@style/Button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="List of Trusted Hospitals"
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:background="@color/material_red_A200" />
+        android:layout_marginBottom="20dp" />
 
 </RelativeLayout>
