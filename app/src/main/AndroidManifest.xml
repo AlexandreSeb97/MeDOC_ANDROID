@@ -19,7 +19,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".HomeActivity"
+            android:name=".activities.HomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,11 +36,15 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".activities.MapsActivity"
             android:label="@string/title_activity_maps" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.medoc.medoc.HomeActivity" />
+                android:value=".activities.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activities.HospitalsActivity"
+            android:label="@string/title_activity_hospitals" >
         </activity>
     </application>
 

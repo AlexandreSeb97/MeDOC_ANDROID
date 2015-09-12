@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.medoc.medoc.activities.HospitalsActivity"
+    android:background="#84DCCF">
+
+    <RelativeLayout
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/relativeLayout2"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="#EF626C"
+        android:id="@+id/relativeLayout3">
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvHospitals"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/relativeLayout2"
+        android:layout_alignEnd="@+id/relativeLayout2"
+        android:layout_margin="15dp"
+        android:choiceMode="singleChoice" />
+
+</RelativeLayout>

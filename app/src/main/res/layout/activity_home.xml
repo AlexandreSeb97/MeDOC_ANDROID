@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:text="Quick! To the Hospital"
             android:id="@+id/button2"
-            android:onClick="onHospitalClick"
+            android:onClick="onMapClick"
             android:textColor="#22181C"
             android:layout_centerVertical="true"
             android:layout_alignParentStart="true"
